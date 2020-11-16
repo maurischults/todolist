@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc5ec74-a448-4f85-8b3a-93a261c42ac2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -59,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605107233454</updated>
-      <workItem from="1605107235594" duration="5490000" />
+      <workItem from="1605107235594" duration="5640000" />
+      <workItem from="1605529479283" duration="4264000" />
     </task>
     <task id="LOCAL-00001" summary="Project basic files are created">
       <created>1605108189240</created>
@@ -68,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605108189240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add task to list function">
+      <created>1605112832528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605112832528</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add task to list function">
+      <created>1605112862103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605112862103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,19 +100,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Project basic files are created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project basic files are created" />
+    <MESSAGE value="Add task to list function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task to list function" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605110660622">
+    <state x="552" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605532705239">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605110660622" />
+    <state x="552" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605532705239" />
   </component>
 </project>
