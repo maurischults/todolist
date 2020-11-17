@@ -4,7 +4,13 @@ const taskInput = document.querySelector('#task');
 const taskList = document.querySelector('.collection');
 const clearBtn = document.querySelector("#remove-all");
 const filterInput = document.querySelector("#filter");
+
+
 // define event listeners
+// page reload event - read data from Local Storage
+document.addEventListener("DOMContentLoaded", getTasks);
+
+
 // add task to list - submit button
 form.addEventListener('submit', addTask);
 // remove task from list - fas backspace icon
@@ -33,6 +39,8 @@ function addTask(e) {
         li.appendChild(link);
         // add li into ul
         taskList.appendChild(li);
+        //store task in Local Storage
+        storeTaskInLocalStorage(taskInput.value);
         // clear task input
         taskInput.value = '';
         e.preventDefault();
@@ -68,4 +76,27 @@ function filterTasks(e) {
             }
         }
     );
+}
+
+//store task
+function storeTaskInLocalStorage(taks = null) {
+    let tasks;
+    if (localStorage.getItem("tasks") === null) {
+        tasks = "";
+    } else {
+        tasks = localStorage.getItem("tasks");
+    }
+    tasks = taskList.innerHTML;
+    localStorage.setItem("tasks", tasks);
+}
+
+//get tasks from Local Storage
+function getTasks() {
+    let tasks;
+    if (localStorage.getItem("tasks") === null) {
+        tasks = "";
+    } else {
+        tasks = localStorage.getItem("tasks");
+    }
+    taskList.innerHTML = tasks;
 }
