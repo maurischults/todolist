@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605107233454</updated>
       <workItem from="1605107235594" duration="5640000" />
-      <workItem from="1605529479283" duration="4264000" />
+      <workItem from="1605529479283" duration="7517000" />
     </task>
     <task id="LOCAL-00001" summary="Project basic files are created">
       <created>1605108189240</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605112862103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lisasin eemaldamisfunktsiooni">
+      <created>1605534023826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605534023826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,14 +114,15 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Project basic files are created" />
     <MESSAGE value="Add task to list function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add task to list function" />
+    <MESSAGE value="Lisasin eemaldamisfunktsiooni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lisasin eemaldamisfunktsiooni" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605532705239">
+    <state x="552" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605534025662">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605532705239" />
+    <state x="552" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1605534025662" />
   </component>
 </project>
