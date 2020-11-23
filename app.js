@@ -52,6 +52,7 @@ function removeTask(e) {
     if (e.target.parentElement.classList.contains("secondary-content")) {
         if (confirm("Do you want to remove this task?")) {
             e.target.parentElement.parentElement.remove();
+            storeTaskInLocalStorage();
         }
     }
 }
@@ -61,6 +62,8 @@ clearBtn.addEventListener("click", removeAll);
 
 function removeAll(e) {
     taskList.innerHTML = "";
+    // localStorage.clear();
+    storeTaskInLocalStorage()
 }
 
 //filterTasks function
